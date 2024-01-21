@@ -23,7 +23,6 @@ playPause = () => {
                 progress.value = song.currentTime;
             }, 500)
         }
-        
     // here we check if the div contains the pause icon, if yes, pause the song and change the icon to play
     } else if (controlIcon.classList.contains("fa-pause")) {
         song.pause();
